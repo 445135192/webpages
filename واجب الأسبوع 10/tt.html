@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="fname">اسم المستخدم:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="اسم المستخدم"><br>
+
+        <label for="password">كلمة المرور:</label><br>
+        <input type="password" id="password" name="password" placeholder="password"><br>
+
+        <label for="email"> البريد الإلكتروني:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@email.com"><br>
+
+        <label for="telx">رقم الجوال</label><br>
+        <input type="tel" name="telx" id="telx" placeholder="050340340" dir="rtl"><br>
+        
+        <label for="age">العمر:</label><br>
+        <input type="number" id="age" name="age" min="10" max="25" placeholder="العمر"><br>
+
+        <label for="birthday">تاريخ الميلاد:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        
+        
+
+        <p>اختر لغتك المفضلة لتطوير الويب:</p>
+        <input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="fav_lang" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="js" name="fav_lang" value="JavaScript">
+        <label for="js">JavaScript</label><br>
+
+        <p> اختر اهتماماتك:</p>
+        <input type="checkbox" id="int1" name="int1" value="Sport">
+        <label for="int1"> الرياضة</label><br>
+        <input type="checkbox" id="int2" name="int2" value="Reading">
+        <label for="int2"> القراءة</label><br>
+        <input type="checkbox" id="int3" name="int3" value="Prog">
+        <label for="int3">البرمجة</label><br><br>
+
+        <label for="subject"> اختر الموضوع:</label>
+        <select id="subject" name="subject">
+            <option value="استفسار">استفسار</option>
+            <option value="مشكلة تقنية">مشكلة تقنية</option>
+            <option value="شراكة">شراكة</option>
+            <option value="أخرى">أخرى</option>
+        </select><br>
+        
+        <label for="message"> رسالتك:</label><br>
+
+        <textarea id="message" name="message" rows="4" required placeholder="اكتب رسالتك هنا"></textarea>
+
+        <br>
+        <input type="submit" value="إرسال">
+        <input type="reset" value="إعادة تعيين">
+    </form>
+</body>
+</html>
